@@ -12,7 +12,9 @@ Repo du cours CS-308 : Calcul quantique donné au semestre de printemps 2022 ä 
 
 Ce projet visait à implémenter l’algorithme de Grover afin de trouver toutes les solutions du problème $3$-SAT suivant 
 
-<img src="https://render.githubusercontent.com/render/math?math={f(x,y,z) = (\lnot x \lor \lnot y \lor\lnot z) \land (\lnot x \lor \lnot y \lor z)\land (\lnot x \lor y \lor z)\land(x \lor \lnot y \lor z)\land(x \lor y \lor \lnot z) \land (x \lor y \lor z)}">
+$$
+f(x,y,z) = (\lnot x \lor \lnot y \lor\lnot z) \land (\lnot x \lor \lnot y \lor z)\land (\lnot x \lor y \lor z)\land(x \lor \lnot y \lor z)\land(x \lor y \lor \lnot z) \land (x \lor y \lor z)
+$$
 
 Le rapport est disponible [ici](projet/Mini_Project_Grover_X_3_SAT__Copy_.pdf) et le code [ici](projet/grover_algorithm.py). 
 
