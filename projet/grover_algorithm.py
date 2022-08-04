@@ -12,7 +12,7 @@ from qiskit.providers.ibmq import least_busy
 from qiskit.visualization import plot_histogram
 
 #Loading IBMQ account
-#IBMQ.save_account("dcb2e2023aa2d3f9d93fa6ea1dbc4a80c1a8fa32474729b2d71e4cf05ac500dfdc0c686d1b8a5070ac105c05655cbd3df6c4a0707539ed076da311edf22ba49f")
+#IBMQ.save_account("put your IBM Q token here")
 provider = IBMQ.load_account()
 
 n = 4
