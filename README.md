@@ -17,6 +17,3 @@ f(x,y,z) = (\lnot x \lor \lnot y \lor\lnot z) \land (\lnot x \lor \lnot y \lor z
 $$
 
 Le rapport est disponible [ici](projet/Mini_Project_Grover_X_3_SAT__Copy_.pdf) et le code [ici](projet/grover_algorithm.py). 
-
-**Note finale : 6** 
-
